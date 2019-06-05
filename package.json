@@ -1,0 +1,14 @@
+{
+  "name": "doc_covemex",
+  "version": "1.0.0",
+  "description": "Documentacion plataforma web Covemex ",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [
+    "Covemex","Plataforma","Laravel"
+  ],
+  "author": "Daniel Martinez",
+  "license": "ISC"
+}
