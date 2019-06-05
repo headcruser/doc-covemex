@@ -6,9 +6,16 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
+  "repository": "https://github.com/headcruser/doc-covemex",
   "keywords": [
-    "Covemex","Plataforma","Laravel"
+    "Covemex",
+    "VuePress",
+    "Plataforma",
+    "Laravel"
   ],
-  "author": "Daniel Martinez",
-  "license": "ISC"
+  "author": "Daniel Martinez Sierra <headcruser@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "0.14.11"
+  }
 }
