@@ -7,7 +7,7 @@ module.exports = {
     ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }],
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }],
   ],
-  themeConfig: 
+  themeConfig:
   {
     logo: '/logo.jpg',
     nav: [
@@ -17,7 +17,7 @@ module.exports = {
     ],
     search: true,
     sidebar:[
-      {
+	  {
         title: 'Documentacion',
         collapsable: true,
         children:[
@@ -30,9 +30,8 @@ module.exports = {
         title:"Modulos",
         collapsable:true,
         children:[
-          '/modulos/viajes',
+          '/modulos/acceso-planta',
           '/modulos/materia-prima',
-          '/modulos/almacen',
           '/modulos/preparacion',
           '/modulos/congelacion',
           '/modulos/embolsadora',

@@ -1,29 +1,38 @@
 # Documentacion ERP Covemex
 
-## Guia 
-Este sito define una breve guia sobre la estructura que tendrá el `Erp Covemex`.
-A continuación se describe un breve resumen acerca de las secciones que estan
-disponibles en el sitio.
+## Guia
 
-### Instalación de la plataforma
-En esta seccion se describe como se instala el proyecto desde cero, desde como 
-instalar las dependencias del proyecto.
+Esta sección describe los procesos de los modulos. Esta descripcion es de vital importancia para entender el flujo de la plataforma, ya que dependiendo el rol que se tenga, los los elementos que se pueden ver entre si.
 
-### Configuración
-Como es una instalación personalizada, requiere de ciertos parametros para poder 
-funcionar dentro del servidor
+### Autenticación
+Describe como acceder y restablecer la cuenta de usuario.
+
+
+### Acceso Planta
+El punto de entrada a la planta. Vigilancia es la encargada de registrar las entradas y salidas de la planta.
+
+### Materia prima
+Se encarga de recibir el producto y generar su respectiva evaluación. En esta seccion se pueden ver elementos como almacen y volteos a proceso.
+
+### Preparacion
+Es el proceso mediante el cual se trabaja la materia prima que llega a traves de los fletes. En esta seccion se puede revisar a todo el personal activo junto con estadisticas adjunto. 
+
+### Congelacion
+Una vez terminado de procesar el producto, se prepara para su congelación y almacenamiento en cuartos frios de conservación 
+
+### Embolsadora
+Se encarga de empacar el producto, dependiendo el pedido y el proveedor al que se le tenga que entregar.
+
+### Ventas
+Es una sección en donde se registran todas las ventas de la empresa con sus respectivos proveedores
+
+## Desarrollo 
+Esta seccion contiene una breve guia sobre la estructura que tendrá el `Erp Covemex`.
+Esta guia es de vital importancia, para los futuros desarrolladores que quieran integrarse al proyecto.
+
+### Herramientas
+En esta seccion se describe como instalar de forma local el proyecto, para poder desarrollar nuevas caracteristicas e integrarlas en la aplicacion principal.
 
 ### Estructura de directorios
 Esta sección es importante, pues indica a donde pertenece cada archivo del proyecto
 ademas de futuras actualizaciones.
-
-### Despliegue
-Son instrucciónes para instalar el proyecto en el servidor, esto en caso de que 
-se desee actualizar el equipo o se dañe por casas ajenas a la administración de 
-sistemas.
-
-## Modulos
-
-Esta sección describe todas las funcionalidaes que el sistema puede hacer. Para
-cada seccion se describe su flujo de trabajo y como es que el sistema interactua
-con los usuarios y los beneficios que este aporta.
