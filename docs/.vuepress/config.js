@@ -38,6 +38,12 @@ module.exports = {
           '/modulos/recursos-humanos',
           '/modulos/ventas'
         ]
+      },{
+        title:"Desarrollo",
+        collapsable:true,
+        children:[
+          '/desarrollo/helpers',
+        ]
       }
     ],
   },
